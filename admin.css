@@ -1,0 +1,21 @@
+.nav{
+    background-color:black;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding-left: 30%;
+   
+}
+.nav>li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+a{
+    color: white;
+}
+
+a :hover{
+    color: hotpink;
+}
