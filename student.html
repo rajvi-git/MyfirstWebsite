@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Student</title>  <!--name of website-to be changed-->
+    <link rel="stylesheet" href="student.css">
+    
+  </head>
+  <body>
+      <h1 class="page-header" style="text-align: center;">Enter your details</h1>
+      <div class="container">
+      <form action="addlink.php">  <!--add link where the form data will be submitted-->
+        <div class="form-group">
+            <label for="board">Name of board</label>
+            <select class="form-control" id="board" name="BOARD"> <!--add names of all rqd boards and add links if rqd-->
+                <option value="CBSE">CBSE (Central Board of Secondary Education</option>
+                <option value="CICSE">CISCE (Council for Indian School Certificate Examination"</option>
+                <option value="Maharashtra State Board">Maharashtra State Board of Secondary and Higher Secondary Education</option>
+                <option value="Tamil Nadu State Board">Tamil Nadu State Board</option>
+                <option value="UP State Board"> UP State Board of High School and Intemediate Education</option>
+                <option value="Karnataka State Board">Karnatake State Board</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="examination">Name of Examination</label>
+            <select class="form-control" id="examination" name="EXAMINATION"> <!--add names of all examinations-->
+            <option value="X">Class X Board Exam</option>
+            <option value="XII">Class XII Board Exam</option>
+            </select>
+        </div>
+
+        <div class="form-group"> 
+            <label for="year">Year of Exam</label>
+            <select class="form-control" id="year" name="YEAR"> <!--add names years rqd-->
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                </select>
+        </div>
+
+        <div class="form-group">
+            <label for="rollnumber">Student's Roll Number</label>
+            <input class="form-control" type="text" id="rollnumber" name="FIRSTNAME" placeholder="Enter your rollnumber">
+        </div>
+
+        <input type="submit" value="View marksheet">
+      </form>
+      </div>
+  </body>
+</html>
